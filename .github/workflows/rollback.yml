@@ -26,5 +26,4 @@ jobs:
           cd /var/www/node-deploy-example
           git fetch origin
           git checkout ${{ github.event.inputs.commit_hash }}
-          npm install
-          pm2 restart app
+          npm install          
