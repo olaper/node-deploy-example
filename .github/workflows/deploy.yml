@@ -20,6 +20,6 @@ jobs:
         username: ${{ secrets.SERVER_USER }}
         key: ${{ secrets.SERVER_SSH_KEY }}
         script: |
-          cd /home/ubuntu/node-deploy-example
+          cd /var/www/node-deploy-example
           git pull origin main
           npm install
